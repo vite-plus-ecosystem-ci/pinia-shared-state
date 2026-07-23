@@ -1,0 +1,29 @@
+pnpm-lock.yaml
+  s_dadfabb250f19c::t_3da3de59bf9b74 10-11,14,35-36,39,42,521-522,578-579,584-585,590-591,597-598,604-605,611-612,618-619,624-625,1390-1391,1855,1859-1860,1867,1870,1876,1893,1899,1925,1937,1940,1943,1946,1949,1952,1955,1958,2371,2394,2405,2427,2598,2602-2603,2605,2611-2613,2615,2617-2624,2656,2659,2676,2679
+pnpm-workspace.yaml
+  s_825e63d4d3c4d7::t_caa744baebddf1 5,7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6c3605b03704acd5aa078184528bd89dd1649312",
+  "prompts": {},
+  "sessions": {
+    "s_825e63d4d3c4d7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_073404bafffebDbpike0uato7j",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "wan9chi <dk4rest@gmail.com>"
+    },
+    "s_dadfabb250f19c": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_073404a10ffe2VNCyPlOfumSDL",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "wan9chi <dk4rest@gmail.com>"
+    }
+  }
+}
