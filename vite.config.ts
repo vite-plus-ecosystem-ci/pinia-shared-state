@@ -5,6 +5,7 @@ export default defineConfig({
     '*': 'vp check --fix',
   },
   pack: {
+    deps: { resolveDepSubpath: true },
     entry: ['src/index.ts'],
     sourcemap: true,
     clean: true,
@@ -18,6 +19,7 @@ export default defineConfig({
     },
   },
   test: {
+    clearMocks: false,
     // Node environment is sufficient: Vue/Pinia reactivity works without a
     // real browser DOM. Using 'node' keeps the tests fast and dependency-free.
     environment: 'node',
